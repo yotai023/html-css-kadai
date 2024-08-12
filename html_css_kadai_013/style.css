@@ -14,6 +14,15 @@ p {
 
 /*================PC用のスタイル =================*/
 @media screen and (min-width: 768px) {
+  
+  #nav-sp {
+    display: none;
+    /*スマホ用のナビゲーションを非表示に*/
+   }
+   #menu-sp {
+    display: none;
+   }
+   
   /* 横幅設定 */
   body {
     max-width: 1080px;
@@ -33,11 +42,6 @@ p {
     font-size: 14px;
     padding-top: 15px;
   }
-
-  #nav-sp {
-    display: none;
-    /*スマホ用のナビゲーションを非表示に*/
-   }
 
   /* ナビゲーションのリンクの装飾設定 */
   #nav-pc>a {
